@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StuCore App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Ensure to link your CSS file -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo-image"></div>
+      <div class="welcome-to">Welcome to</div>
+      <div class="saly-17"></div>
+      <div class="image-2"></div>
+      <div class="stu-core">StuCore</div>
+      <button class="button-primary">GET STARTED</button>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var image = document.querySelector(".image-2");
+        var welcomeTo = document.querySelector(".welcome-to");
+        var stuCore = document.querySelector(".stu-core");
+        var button = document.querySelector(".button-primary");
+
+        image.addEventListener("animationend", function () {
+          welcomeTo.classList.add("show");
+
+          // Wait for "Welcome to" to fully appear before showing "StuCore"
+          setTimeout(function () {
+            stuCore.classList.add("show");
+
+            // Wait for "StuCore" to fully appear before showing the button
+            setTimeout(function () {
+              button.classList.add("show");
+            }, 1000); // Delay to match the StuCore transition duration
+          }, 1000); // Delay to match the Welcome to transition duration
+        });
+      });
+    </script>
+  </body>
+</html>
