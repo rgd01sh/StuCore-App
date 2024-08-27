@@ -14,7 +14,7 @@ StuCore focuses on enhancing user experience through intuitive UI/UX, responsive
 ## Design Files
 The design process of StuCore involved careful planning and multiple iterations. The wireframes, mockups, and UI/UX principles that guided the design are available in the `/docs/wireframes/` directory.
 
-You can also view the detailed design and user flow in our Figma link here: [StuCore Design on Figma](#) *([insert link to Figma design if applicable](https://www.figma.com/file/dBtvV6OCVrjyF6w1wDnef1/StuCore-App))*.
+You can also view the detailed design and user flow in our Figma link here: [StuCore Design on Figma]([#](https://www.figma.com/file/dBtvV6OCVrjyF6w1wDnef1/StuCore-App))  
 
 ## Getting Started
 
