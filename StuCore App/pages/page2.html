@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Page 2</title>
+    <link rel="stylesheet" href="../styles/page1.css" />
+  </head>
+  <body>
+    <div class="explore-container">
+      <div class="status-bar"></div>
+
+      <!-- Page 2 Content -->
+      <div class="page active" id="page2">
+        <div class="stu-core">Page 2 Title</div>
+        <div class="tagline">Description or content for Page 2</div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <div class="footer-line"></div>
+        <div id="footerProgress" class="footer-progress"></div>
+        <div id="pageNumber" class="page-number">2/8</div>
+      </div>
+
+      <!-- Navigation Buttons -->
+      <div class="footer-navigation">
+        <button class="prev-button" onclick="navigateToPage(1)">«</button>
+        <button class="next-button" onclick="navigateToPage(3)">»</button>
+      </div>
+
+      <!-- Skip Button -->
+      <button class="skip-button" onclick="skipToEnd()">Skip</button>
+    </div>
+
+    <!-- JavaScript for Page 2 -->
+    <script src="../scripts/page2.js"></script>
+  </body>
+</html>
