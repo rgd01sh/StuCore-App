@@ -30,4 +30,4 @@ To run this project locally, you'll need to have the following software installe
    git clone https://github.com/yourusername/stucore.git
    cd stucore
 
-# still in process..
+ 
