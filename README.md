@@ -50,6 +50,11 @@ npm install
 npm start
 
 
+# still in process..
+
+ 
+
+
 
 
 
