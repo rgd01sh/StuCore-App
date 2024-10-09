@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Page 3</title>
+    <link rel="stylesheet" href="../styles/page1.css" />
+  </head>
+  <body>
+    <div class="explore-container">
+      <div class="status-bar"></div>
+
+      <!-- Page 3 Content -->
+      <div class="page active" id="page3">
+        <div class="stu-core">Events Calendar</div>
+        <div class="tagline">Events & Clubs Calendar</div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <div class="footer-line"></div>
+        <div id="footerProgress" class="footer-progress"></div>
+        <div id="pageNumber" class="page-number">3/8</div>
+      </div>
+
+      <!-- Navigation Buttons -->
+      <div class="footer-navigation">
+        <button class="prev-button" onclick="navigateToPage(2)">«</button>
+        <button class="next-button" onclick="navigateToPage(4)">»</button>
+      </div>
+
+      <!-- Skip Button -->
+      <button class="skip-button" onclick="skipToEnd()">Skip</button>
+    </div>
+
+    <!-- JavaScript for Page 3 -->
+    <script src="../scripts/page3.js"></script>
+  </body>
+</html>

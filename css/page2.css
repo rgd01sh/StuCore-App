@@ -1,0 +1,15 @@
+/* Specific styles for Page 2 */
+body {
+  background-color: #f0f0f0;
+}
+
+.page {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigation-buttons {
+  margin-top: 20px;
+}
