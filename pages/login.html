@@ -353,11 +353,12 @@ function validateLogin() {
   if (idField.value.length === 7 && passwordField.value.length > 0) {
     alert("Login successful!");
     // Redirect to page1.html inside the pages folder
-    window.location.href = "pages/page1.html";
+    window.location.href = "./pages/page1.html"; // Adjust the relative path here if needed
   } else {
     alert("Please enter a valid 7-digit ID and password.");
   }
 }
+
 
       // Close the modal if the user clicks outside of it
       window.onclick = function (event) {
