@@ -345,17 +345,19 @@
         }
       }
 
-      function validateLogin() {
-        const idField = document.getElementById("id-field");
-        const passwordField = document.getElementById("password-field");
+function validateLogin() {
+  const idField = document.getElementById("id-field");
+  const passwordField = document.getElementById("password-field");
 
-        if (idField.value.length === 7 && passwordField.value.length > 0) {
-          alert("Login successful!");
-window.location.href = "pages/page1.html";
-        } else {
-          alert("Please enter a valid 7-digit ID and password.");
-        }
-      }
+  // Check if the ID is exactly 7 digits and password is not empty
+  if (idField.value.length === 7 && passwordField.value.length > 0) {
+    alert("Login successful!");
+    // Redirect to page1.html inside the pages folder
+    window.location.href = "pages/page1.html";
+  } else {
+    alert("Please enter a valid 7-digit ID and password.");
+  }
+}
 
       // Close the modal if the user clicks outside of it
       window.onclick = function (event) {
